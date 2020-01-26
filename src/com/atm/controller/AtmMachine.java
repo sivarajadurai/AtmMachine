@@ -21,11 +21,6 @@ public class AtmMachine {
 //		c2.setUserName("Ramesh");
 //		
 //		
-//		System.out.println("================PRINT OUT==================");
-//		System.out.println("ATM Bank Name :"+AtmCard.getBankName());
-//		System.out.println("ECOM Bank Name :"+EcomCard.getBankName());
-//		System.out.println("ATM Card Number : "+c1.getCardNo());
-//		System.out.println("Ecom Card Number : "+e1.getCardNo());
 		
 		
 		Scanner s = new Scanner(System.in);
@@ -37,6 +32,13 @@ public class AtmMachine {
 		String name = s1.getName(cardNo, pin);
 		System.out.println("Welcome "+name);
 		
+	}
+	
+	void Print() {
+
+		System.out.println("================PRINT OUT==================");
+		System.out.println("ATM Bank Name :"+AtmCard.getBankName());
+		System.out.println("ECOM Bank Name :"+EcomCard.getBankName());
 	}
 
 }
